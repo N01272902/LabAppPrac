@@ -10,10 +10,14 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     //This is a demo
-    // I added some code for toast
+    //I added some code for toast
+    //Making a Splash Screen
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        setTheme(R.style.AppTheme);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
